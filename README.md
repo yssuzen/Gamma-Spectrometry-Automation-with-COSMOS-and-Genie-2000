@@ -24,6 +24,7 @@ Before running the program, you need to adjust several default parameters in the
 - **Genie 2000 behavior**: Some interactions (e.g., window titles, warnings) may differ between systems. You may need to tweak PyAutoGUI interactions based on your Genie 2000 installation.
 
 Make sure to review the code and replace placeholders with values suitable for your environment before running the program.
+
 **Note:** This program uses PyAutoGUI to automate interactions with Genie 2000. Since PyAutoGUI relies on pixel-based screen coordinates, you must run Genie 2000 in a maximized window and capture the exact screen coordinates of its buttons on your own system. Update these coordinates in the code accordingly to ensure correct operation. Coordinate values may vary depending on screen resolution, scaling settings, and window layout.
 
 ## File Structure
