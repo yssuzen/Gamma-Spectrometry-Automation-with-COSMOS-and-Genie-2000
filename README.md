@@ -26,3 +26,30 @@ This project automates the measurement process of a gamma spectrometer by integr
 
 ```bash
 pip install pyserial pyautogui
+
+## Creating an Executable
+
+1. Install PyInstaller:
+   - To create an executable for Windows
+```bash
+pip install pyinstaller
+
+2. Create the executable:
+```bash
+pyinstaller --onefile --windowed --icon=icon.ico gui.py
+
+- This will generate the executable in the dist/ directory.
+
+## How to Use
+
+1. Launch the program
+2. Enter the date, isotope, ID, and target energy
+3. Fill in positions and either wait time or uncertainty (not both)
+4. Click Run to begin automated acquisition
+5. Use Skip to move to the next position or Abort to stop the run
+6. Screenshots and saved files will be automatically handled
+
+## License
+
+This project is licensed under the GNU General Public License v3.0.
+You may freely use, modify, and distribute this software under the terms of the GPL-3.0. However, commercial use is not permitted unless explicitly approved by the author. Any modified versions must also be open-sourced under the same license.
