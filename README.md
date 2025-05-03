@@ -50,5 +50,4 @@ This project automates the measurement process of a gamma spectrometer by integr
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0.
-You may freely use, modify, and distribute this software under the terms of the GPL-3.0. However, commercial use is not permitted unless explicitly approved by the author. Any modified versions must also be open-sourced under the same license.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
