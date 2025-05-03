@@ -24,19 +24,18 @@ This project automates the measurement process of a gamma spectrometer by integr
 1. Make sure you have Python 3 installed
 2. Install required libraries:
 
-```bash
-pip install pyserial pyautogui
+   ```bash
+   pip install pyserial pyautogui
 
 ## Creating an Executable
 
 1. Install PyInstaller:
-   - To create an executable for Windows
-```bash
-pip install pyinstaller
+   ```bash
+   pip install pyinstaller
 
 2. Create the executable:
-```bash
-pyinstaller --onefile --windowed --icon=icon.ico gui.py
+   ```bash
+   pyinstaller --onefile --windowed --icon=icon.ico gui.py
 
 - This will generate the executable in the dist/ directory.
 
